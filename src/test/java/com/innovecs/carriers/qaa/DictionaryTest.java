@@ -4,14 +4,14 @@ import org.junit.Assert;
 import org.junit.Test;
 
 /**
- * Unit test for simple App.
+ * Unit test for Dictionary class.
  */
+
 public class DictionaryTest {
 
     @Test
     public void noWordsInListNoOccurences() {
         Assert.assertEquals(0, new Dictionary().getOccurence("abbot"));
-        ;
     }
 
     @Test
